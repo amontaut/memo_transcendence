@@ -232,8 +232,8 @@ function Home() {
                 <b>Requete 4 POST pour ajouter une donnee</b>
             </p>
             {/* ici pas de loading car il ne serai change en false qu'une fois la requete effectuee donc apres qu'on ai clique sur le bouton */}
-            {errorChange && <p>{errorChange}</p>}
-            {!errorChange && (
+            {errorPost && <p>{errorPost}</p>}
+            {!errorPost && (
                 <button onClick={addIt}>l'User 1 block l'user 2</button>
             )}
             {/* After clicking on the button, you can reaload the adminer page localhost 8080 and the things wil be changed */}
