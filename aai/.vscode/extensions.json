@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "angular.ng-template",
+    "esbenp.prettier-vscode",
+    "graphql.vscode-graphql",
+    "prisma.prisma",
+    "42crunch.vscode-openapi"
+  ]
+}
